@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="sea">
+                <input type="text" placeholder="Enter city name" spellcheck="false" id="text">
+                <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="error">
+                <p>This is invalid city name!!!</p>
+            </div>
+            <div class="weather">
+                <div id="img">
+                </div>
+                <div id="temp">
+                    22ºC
+                </div>
+                <div id="city">
+                    Aurangabad
+                </div>
+                <div class="info">
+                    <div id="humidity">
+                        <i class="fa-solid fa-water"></i>
+                        <span id="humid">55%</span><br>
+                        <span class="tst">Humidity</span>
+                    </div>
+                    <div id="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <span id="wnd"> 5.33 km/h</span> <br>
+                        <span class="tst">Wind speed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
